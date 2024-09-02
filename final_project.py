@@ -2,6 +2,7 @@ import mysql.connector
 import mysql
 import streamlit as st
 
+
 # Establish a connection to MySQL Server
 
 mydb = mysql.connector.connect(
