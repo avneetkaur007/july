@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-image=Image.open(r'C:\Users\cipl\Pictures\bank1.jpeg')
+image=Image.open(bank1.jpeg')
 st.image(image,caption='Welcome to XYZ Bank')
 st.title('Loan calculator')
 st.header('XYZ Bank of India')
